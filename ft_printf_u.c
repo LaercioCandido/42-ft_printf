@@ -6,11 +6,11 @@
 /*   By: lcandido <lcandido@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/11 01:41:32 by lcandido          #+#    #+#             */
-/*   Updated: 2020/08/12 02:37:07 by lcandido         ###   ########.fr       */
+/*   Updated: 2020/08/13 00:30:33 by lcandido         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "./ft_printf.h"
 
 static int	ft_numlen_unsigned(unsigned int num)
 {

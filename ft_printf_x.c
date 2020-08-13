@@ -6,11 +6,11 @@
 /*   By: lcandido <lcandido@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/08 16:38:47 by lcandido          #+#    #+#             */
-/*   Updated: 2020/08/12 02:38:31 by lcandido         ###   ########.fr       */
+/*   Updated: 2020/08/13 00:30:38 by lcandido         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "./ft_printf.h"
 
 static int	digitcounter(unsigned long int n)
 {

@@ -12,7 +12,7 @@
 
 NAME = libftprintf.a
 
-SRCS = src/*.c
+SRCS = *.c
 
 OBJECTS = *.o
 

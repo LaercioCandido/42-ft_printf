@@ -6,11 +6,11 @@
 /*   By: lcandido <lcandido@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/14 23:47:04 by lcandido          #+#    #+#             */
-/*   Updated: 2020/08/12 02:36:11 by lcandido         ###   ########.fr       */
+/*   Updated: 2020/08/13 00:30:22 by lcandido         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../ft_printf.h"
+#include "./ft_printf.h"
 
 void	ft_printf_star(t_flags *flags, va_list args)
 {
