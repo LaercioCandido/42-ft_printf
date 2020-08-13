@@ -6,7 +6,7 @@
 /*   By: lcandido <lcandido@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/08 16:38:47 by lcandido          #+#    #+#             */
-/*   Updated: 2020/08/13 15:24:43 by lcandido         ###   ########.fr       */
+/*   Updated: 2020/08/13 15:39:58 by lcandido         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,7 +62,7 @@ static int	ft_printf_sc(t_flags *flags, int len, int point, char *str)
 	if (flags->minus && !len)
 		flags->width++;
 	while (flags->minus && flags->width-- > 0)
-		count += ft_putchar(' '); ////////
+		count += ft_putchar(' ');
 	return (count);
 }
 
