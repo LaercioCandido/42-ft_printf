@@ -9,15 +9,19 @@ To delete the objects and the executable file, type **make fclean**
 This implementation cover the following set of flags, length modifiers and conversions, besides the availability of the width and precision modifiers:
 
 **Flags**
-| Flag |                             Description                            |
-|:----:|:-------------------------------------------------------------------|
-| -    | Align replaced text to the left when enough width is given         |
-| 0    | Add '0' as a padding character in numeric conversions              |
+|  Flag |                             Description                            |
+|:-----:|:-------------------------------------------------------------------|
+|   -   | Align replaced text to the left when enough width is given         |
+|   0   | Add '0' as a padding character in numeric conversions              |
 
 **Conversions**
-| Flag |                             Description                            |
-|:----:|:-------------------------------------------------------------------|
-| -    | Align replaced text to the left when enough width is given         |
-| 0    | Add '0' as a padding character in numeric conversions              |
-| +    | Add a plus sign ('+') in the front of positive numeric conversions |
-| #    | Alternate input method for placeholder                             |
+| Conversion | Description                 |
+|:----------:|-----------------------------|
+|      c     | int converted to ASCII char |
+|      s     | NULL - terminated string    |
+|      p     | Pointer memory address      |
+|      d     | int in decimal base         |
+|      i     | int in decimal base         |
+|      x     | int in hex base (lowercase) |
+|      X     | int in hex base (uppercase) |
+|      %     | '%' char literal            |
